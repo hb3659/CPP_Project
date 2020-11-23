@@ -1,0 +1,5 @@
+﻿  Cpp1_4.cpp
+  main_Cpp.cpp
+  코드를 생성하고 있습니다...
+main_Cpp.obj : error LNK2005: _main이(가) Cpp1_4.obj에 이미 정의되어 있습니다.
+C:\Users\hb365\source\repos\Cpp\Debug\Cpp1_4.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
