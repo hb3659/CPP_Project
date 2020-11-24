@@ -58,4 +58,10 @@ int main() {
 	//long int longNum = 0L;
 	//long long longLongNum = 0LL;
 	//unsigned long long ulongLongNum = 0uLL;
+
+	cout << (int)numeric_limits<uint8_t>::max() << endl;
+	// uint8_t 는 char 형이기 때문에 형변환 필요
+	cout << numeric_limits<uint16_t>::max() << endl;
+	cout << numeric_limits<uint32_t>::max() << endl;
+	cout << numeric_limits<uint64_t>::max() << endl;
 }
