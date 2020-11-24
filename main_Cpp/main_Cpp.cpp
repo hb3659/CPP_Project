@@ -64,4 +64,19 @@ int main() {
 	cout << numeric_limits<uint16_t>::max() << endl;
 	cout << numeric_limits<uint32_t>::max() << endl;
 	cout << numeric_limits<uint64_t>::max() << endl;
+
+	cout << endl;
+
+	cout << (int)numeric_limits<int8_t>::min() << endl;
+	// uint8_t 는 char 형이기 때문에 형변환 필요
+	cout << numeric_limits<int16_t>::min() << endl;
+	cout << numeric_limits<int32_t>::min() << endl;
+	cout << numeric_limits<int64_t>::min() << endl;
+
+	cout << endl;
+
+	int32_t num32 = numeric_limits<int32_t>::min();
+	int32_t num32_ = num32 - 1;
+	cout << num32 << endl;
+	cout << num32_ << endl;
 }
