@@ -1,0 +1,4 @@
+﻿  String.cpp
+C:\Users\hb365\source\repos\Cpp\String\String.cpp(29,16): warning C4305: '초기화 중': 'int'에서 'char'(으)로 잘립니다.
+C:\Users\hb365\source\repos\Cpp\String\String.cpp(29,12): warning C4309: '초기화 중': 상수 값이 잘립니다.
+  String.vcxproj -> C:\Users\hb365\source\repos\Cpp\Debug\String.exe

@@ -1,0 +1,3 @@
+﻿  bool.cpp
+C:\Users\hb365\source\repos\Cpp\bool\bool.cpp(28,18): warning C4305: '초기화 중': 'int'에서 'bool'(으)로 잘립니다.
+  bool.vcxproj -> C:\Users\hb365\source\repos\Cpp\Debug\bool.exe
